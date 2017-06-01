@@ -1,0 +1,62 @@
+#hplogo {
+    height: 216px;
+    overflow: hidden;
+    position: relative;
+    width: 384px;
+    margin: 0 auto;
+}
+
+#hplogo,
+#hplogo canvas {
+    outline: none;
+    user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none
+}
+
+#fpdoodle {
+    background: #000
+}
+
+#fpdoodle,
+#sadoodle,
+#sdoodles,
+#fpdoodle center,
+#sadoodle center,
+#sdoodles center,
+#fpdoodle body,
+#sadoodle body,
+#sdoodles body,
+#fpdoodle #hplogo,
+#sadoodle #hplogo,
+#sdoodles #hplogo {
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+#hplogo canvas:-webkit-full-screen {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#hplogo canvas {
+    background: url(cta.svg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%
+}
+
+#dood #hplogo canvas {
+    background: url(/logos/2017/cricket17/cta_ntp.png) no-repeat;
+    background-size: contain;
+    background-position: center
+}
+
+#fpdoodle #hplogo canvas {
+    background: none
+}
