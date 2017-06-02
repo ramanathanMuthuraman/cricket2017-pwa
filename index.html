@@ -10,6 +10,15 @@
     <div id="hplogo" title="ICC Champions Trophy 2017 begins!" dir="ltr">
         <canvas width="768" height="432" dir="ltr" tabindex="0" style="cursor: pointer;"></canvas>
     </div>
+    <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('./service-worker.js')
+            .then(function() {
+                console.log('Service Worker Registered');
+            });
+    }
+    </script>
     <script src="cricket17.js"></script>
 </body>
 
