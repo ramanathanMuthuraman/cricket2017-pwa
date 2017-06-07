@@ -1,11 +1,11 @@
 var cacheName = 'cricket2017-step-6-1';
 var filesToCache = [
-    '/',
-    '/index.html',
-    '/style.css',
-    '/cricket17.js',
-    '/cta.svg',
-    '/svg-sprite.svg'
+    './',
+    './index.html',
+    './style.css',
+    './cricket17.js',
+    './cta.svg',
+    './svg-sprite.svg'
 ];
 
 self.addEventListener('activate', function(e) {
